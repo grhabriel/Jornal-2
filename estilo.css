@@ -1,0 +1,119 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1{
+    padding-top: 5%;
+    margin-bottom: 5%;
+    margin-top: 0 ;
+}
+
+p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+header{
+    margin-top: 0%;
+    text-align: center;
+    color: white;
+    background-color: rgb(173, 32, 32);
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: rgb(19, 17, 17);
+    border-radius: 25px;
+}
+
+main{
+    margin: 10px;
+    margin-left: 5%;
+}
+
+li{
+    flex-direction: row;
+    display: inline-block;
+    padding: 10px;
+}
+footer{
+    border-top: 2px solid black;
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+    background-color: rgb(173, 32, 32);
+    margin: 0;
+}
+
+
+#escola img{
+    width: 500px;
+    height: 400px;
+    text-align: left;
+}
+
+section{
+    background-color: rgba(145, 130, 130, 0.377);
+    padding: 2%;
+    margin: 1%;
+    border: 3px solid grey;
+    border-radius: 10px;
+    width: 50%px;
+}
+section p{
+    text-align: left;
+}
+#relembrando img,
+#infra img{
+    width: 500px;
+    height: 400px;
+}
+
+section a:link{
+    color: red;
+    border-bottom: 3px solid black;
+}
+section a:visited{
+    color: black;
+    border-bottom: 3px solid black;
+}
+section a:hover{
+    border: 3px solid crimson;
+    border-radius: 5px;
+}
+
+
+
+
+section img{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+section iframe{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+nav li:hover,
+h1:hover{
+    transform: scale(1.3);
+}
+
+p{
+    text-align: center;
+}
+
+
+
+body{
+    background-image: url();
+}
